@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nutrition-Label-Analyzer/static/css/main.20c447d5.css",
+    "main.js": "/Nutrition-Label-Analyzer/static/js/main.9b42e85e.js",
+    "static/js/453.f90e41d9.chunk.js": "/Nutrition-Label-Analyzer/static/js/453.f90e41d9.chunk.js",
+    "index.html": "/Nutrition-Label-Analyzer/index.html",
+    "main.20c447d5.css.map": "/Nutrition-Label-Analyzer/static/css/main.20c447d5.css.map",
+    "main.9b42e85e.js.map": "/Nutrition-Label-Analyzer/static/js/main.9b42e85e.js.map",
+    "453.f90e41d9.chunk.js.map": "/Nutrition-Label-Analyzer/static/js/453.f90e41d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c447d5.css",
+    "static/js/main.9b42e85e.js"
+  ]
+}
