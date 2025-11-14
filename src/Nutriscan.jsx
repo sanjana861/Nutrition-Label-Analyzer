@@ -8,7 +8,7 @@ import './index.css';
 // --- FIREBASE & API CONFIGURATION ---
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDuHKBTdWzQddZV2GkDFuZEWSf4tn9_Itc",
+
   authDomain: "nutriscan-7cd75.firebaseapp.com",
   projectId: "nutriscan-7cd75",
   storageBucket: "nutriscan-7cd75.firebasestorage.app",
@@ -16,6 +16,8 @@ const firebaseConfig = {
   appId: "1:363283289599:web:7c9fdbdb106875e9a803ca",
   measurementId: "G-V0SQTTSV5N"
 };
+const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
+
 //const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 //const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null; 
 //const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
