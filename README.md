@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# NutriScan – AI-Powered Nutrition Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NutriScan is an AI-assisted nutrition analysis application built with React and Tailwind CSS. It helps users scan labels, analyze nutrient data, set goals, and interact with an intelligent nutrition assistant — all in a simple, modern interface.
 
-## Available Scripts
+##  Features
 
-In the project directory, you can run:
+**Nutrition Analyzer** – Scan or manually enter nutrition data for instant insights.
 
-### `npm start`
+**Goal Setup Wizard** – Collects user metrics (age, weight, height) to personalize recommendations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Activity Logs** – Saves user scans and previous analyses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**NutriBot AI** – Chat-based nutrition assistant for quick guidance.
 
-### `npm test`
+**Responsive UI** – Built using React and Tailwind for a clean, smooth experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tailwind CSS (v3 — CRA compatible)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JavaScript (ES6+)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Firebase (optional: logs, storage, authentication)
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/your-username/NutriScan.git
+cd NutriScan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Install dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Start the development server:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Project runs at:
+👉 http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Configuration
+Tailwind Setup
 
-### Making a Progressive Web App
+postcss.config.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## index.css
 
-### Deployment
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Project Structure
+src/
+│── components/
+│── pages/
+│── firebaseConfig.js
+│── App.js
+│── index.js
+│── index.css
+tailwind.config.js
+postcss.config.js
+package.json
 
-### `npm run build` fails to minify
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+AI-based food recommendations
+
+PWA mode (offline support + mobile app experience)
+
+Image-based portion detection
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome.
+Feel free to open a PR or create an issue.
+
+## License
+
+This project is licensed under the MIT License.
